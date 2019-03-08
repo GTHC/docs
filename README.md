@@ -1,5 +1,6 @@
 # docs
-![](https://i.imgur.com/WkIpA4J.png)
+<a href="url"><img src="https://i.imgur.com/WkIpA4J.png" align="middle" height="250" width="250" ></a>
+
 ### Welcome to the GTHC docs!
 
 This is where all of internal documentation for all of our projects and works for any essential developer knowledge. This includes any FAQs, howtos, and examples of how GTHC is up and running.
