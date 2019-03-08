@@ -1,6 +1,6 @@
 # README
 
-### GTHC Backend/Ruby on Rails Documentation
+### GTHC API/Ruby on Rails Documentation
 
 The documentation is here for any essential knowledge needed to know about the essential `Ruby On Rails` developer practices used at GTHC. This documentation assumes basic knowledge of ruby and rails.
 
