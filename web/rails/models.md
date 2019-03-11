@@ -2,10 +2,10 @@
 
 [What is a model and the MVC architecture?](https://en.wikipedia.org/wiki/Model–view–controller)
 
-### When to create a model?
+## When to create a model?
 Creating a new model should be rare occurrence to everything else you should do as a GTHC developer, but not unusual. The two times you will usually need to make a new model will be when you are adding a new table to the database, for a new set of data that cannot be added as a part of an already existing table, __or__ when a `has_many` relationship between two models is being created.
 
-### How to create a model?
+## How to create a model?
 A Rails Model is a Ruby class that can add database records (think of whole rows in an Excel table), find particular data you're looking for, update that data, or remove data. These common operations are referred to by the acronym CRUD--Create, Remove, Update, Destroy.
 
 There are other ways to perform CRUD operations on databases--the most common way is to use a Data Definition Language like SQL--but Rails makes the whole business a lot easier and more extensible for reasons described in the entry on migrations.
