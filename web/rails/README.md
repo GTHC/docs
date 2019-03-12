@@ -2,7 +2,7 @@
 
 ### GTHC API/Ruby on Rails Documentation
 
-The documentation is here for any essential knowledge needed to know about the essential `Ruby On Rails` developer practices used at GTHC. This documentation assumes basic knowledge of ruby and rails.
+The documentation is here for any essential knowledge needed on the `Ruby On Rails` developer practices used at GTHC. This documentation assumes basic knowledge of ruby and rails.
 
 Docs include information about:
 1. Building Models
