@@ -67,7 +67,7 @@ export {
 Unlike a normal component, this react component goes through the process of connecting to the Redux store, thus, what is exported by default is the "Smart Component", rather what you typically see in a "Dumb Component":
 
 ```
-import React, 'Container' from 'react';
+import React, { Container } from 'react';
 
 class Example extends Component {
   ...
