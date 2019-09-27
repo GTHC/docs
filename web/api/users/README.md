@@ -1,9 +1,9 @@
 <!--
 Template
 
-** Description: **
+**Description:**
 
-** Example: **
+**Example:**
 
 Input:
 
@@ -20,10 +20,10 @@ Input:
 ## General
 
 ### GET `/api/v1/users/`
-** Description: **
+**Description:**
 Grabs all user data
 
-** Example: **
+**Example:**
 
 Input:
 ```bash
@@ -66,10 +66,10 @@ Output:
 ]
 ```
 ### GET `/api/v1/users/:id`
-** Description: **
+**Description:**
 Grab user data of a single user by id
 
-** Example: **
+**Example:**
 
 Input:
 ```bash
@@ -95,10 +95,10 @@ Output:
 ```
 
 ### POST `/api/v1/users/`
-** Description: **
+**Description:**
 Create a user that will join an **EXISTING** team, and sign them in.
 
-** Example: **
+**Example:**
 
 Input:
 ```bash
@@ -157,9 +157,9 @@ Output:
 ```
 
 ### POST `api/v1/captains/`
-** Description: ** Create a user that will create a **NEW** team, thus being a user and a captain, and sign them in. [Also refer to captain docs](/../captain)
+**Description:** Create a user that will create a **NEW** team, thus being a user and a captain, and sign them in. [Also refer to captain docs](/../captain)
 
-** Example: **
+**Example:**
 
 Input:
 ```bash
@@ -251,9 +251,9 @@ Output:
 }
 ```
 ### PUT `/api/v1/users/:id`
-** Description: ** Update user (you must send in entire user ActiveRecord data with changes)
+**Description:** Update user (you must send in entire user ActiveRecord data with changes)
 
-** Example: **
+**Example:**
 
 Input:
 
