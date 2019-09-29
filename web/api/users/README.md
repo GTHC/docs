@@ -10,6 +10,8 @@ Input:
 ```bash
 ```
 
+Output:
+
 ```javascript
 ```
 
@@ -251,23 +253,88 @@ Output:
 }
 ```
 ### PUT `/api/v1/users/:id`
-**Description:** Update user (you must send in entire user ActiveRecord data with changes)
+**Description:** Update user for either an update on user data or password. If user data, it [the request] must include all of the editable user data information (as of right now, that is only the user's name and phone number which are just strings), even if it did not change, see example below. For password, it requires a password and password_confirmation, like in the example below.
 
 **Example:**
 
 Input:
 
 ```bash
+$  PUT /api/v1/users/1
+{
+  name: "John Smith",
+  phone: "919-210-2210"
+}
+```
+
+
+*Or*
+
+```bash
+$  PUT /api/v1/users/1
 {
   password: "pass",
   password_confirmation: "pass"
 }
 ```
+Output:
+```javascript
+{
+  status: 'SUCCESS',
+  message: 'User successfully updated.',
+  data: {
+    // new user data
+  }
+}
+```
+
+## Availability
+
+### POST `api/v1/user/availability`
+
+**Description:** Create a user availability slot.
+
+**Example:**
+
+Input:
+
+```bash
+```
+Output:
 
 ```javascript
 ```
 
-## Availability
+### PUT `api/v1/availability/:a_id`
+
+**Description:** Update a user availability slot.
+
+**Example:**
+
+Input:
+
+```bash
+```
+Output:
+
+```javascript
+```
+
+### DELETE `api/v1/availability/:a_id`
+
+**Description:** Delete a user availability slot.
+
+**Example:**
+
+Input:
+
+```bash
+```
+Output:
+
+```javascript
+```
+
 
 ## Avatar
 
