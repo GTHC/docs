@@ -67,7 +67,7 @@ Output:
 ```
 
 
-### POST `/posts
+### POST `/posts`
 **Description:**
 Create a post. Needs a `title` and `body` string in the request data.
 
